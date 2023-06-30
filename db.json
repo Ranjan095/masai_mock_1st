@@ -1,0 +1,12 @@
+{
+  "student": [
+    {
+        "name":"abc"
+    }
+  ],
+  "teacher": [
+    {
+        "name":"xyz"
+    }
+  ]
+}
