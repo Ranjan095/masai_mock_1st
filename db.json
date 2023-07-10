@@ -1,76 +1,324 @@
 {
-  "users": [
+  "data": [
     {
       "id": 1,
-      "name": "chandra",
-      "age": 25,
-      "place": "Visakhapatnam",
-      "batch_name": "WEB-21",
-      "profession": "backend"
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On a London Underground map, what colour is the Circle Line?",
+      "rightAns": "Yellow",
+      "option": ["Red", "Blue", "Green", "Yellow"]
     },
     {
       "id": 2,
-      "name": "nrupul",
-      "age": 37,
-      "place": "Vijayawada",
-      "batch_name": "WEB-18",
-      "profession": "backend"
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Greenland is almost as big as Africa.",
+      "rightAns": "False",
+      "option": ["True", "False"]
     },
     {
-      "name": "ranjan",
-      "age": 26,
-      "place": "Bihar",
-      "batch_name": "WEB-13",
-      "profession": "frontend",
-      "id": 4
+      "id": 3,
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following language families is the most controversial amongst modern linguists?",
+      "rightAns": "Altaic",
+      "option": ["Sino-Tibetan", "Dravidian", "Indo-European", "Altaic"]
     },
     {
-      "name": "ranjan",
-      "age": 26,
-      "place": "Bihar",
-      "batch_name": "WEB-13",
-      "profession": "frontend",
-      "id": 5
+      "id": 4,
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Toronto is the capital city of the North American country of Canada.",
+      "rightAns": "False",
+      "option": ["True", "False"]
     },
     {
-      "name": "ranjan",
-      "age": 26,
-      "place": "Bihar",
-      "batch_name": "WEB-13",
-      "profession": "frontend",
-      "id": 6
+      "id": 5,
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the capital of Slovakia?",
+      "rightAns": "Bratislava",
+      "option": ["Sofia", "Ljubljana", "Sarajevo", "Bratislava"]
     },
     {
-      "name": "ranjan",
-      "age": 26,
-      "place": "Bihar",
-      "batch_name": "WEB-13",
-      "profession": "frontend",
-      "id": 7
+      "id": 6,
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the name of the Canadian national anthem?",
+      "rightAns": "O Canada",
+      "option": [
+        "O Red Maple",
+        "Leaf-Spangled Banner",
+        "March of the Puck Drop",
+        "O Canada"
+      ]
     },
     {
-      "name": "ranjan",
-      "age": 26,
-      "place": "Bihar",
-      "batch_name": "WEB-13",
-      "profession": "FSD",
-      "id": 8
+      "id": 7,
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the tallest mountain in Canada?",
+      "rightAns": "Mount Logan",
+      "option": [
+        "Mont Tremblant",
+        "Whistler Mountain",
+        "Blue Mountain",
+        "Mount Logan"
+      ]
     },
     {
-      "name": "ranjan",
-      "age": 26,
-      "place": "Bihar",
-      "batch_name": "WEB-13",
-      "profession": "FSD",
-      "id": 9
+      "id": 8,
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the capital of Seychelles?",
+      "rightAns": "Victoria",
+      "option": ["Luanda", "N&#039;Djamena", "Tripoli", "Victoria"]
     },
     {
-      "name": "ranjan",
-      "age": 26,
-      "place": "Bihar",
-      "batch_name": "WEB-13",
-      "profession": "FSD",
-      "id": 10
+      "id": 9,
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "The two largest ethnic groups of Belgium are Flemish and Walloon. ",
+      "rightAns": "True",
+      "option": ["False", "True"]
+    },
+    {
+      "id": 10,
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What mountain range lines the border between Spain and France?",
+      "rightAns": "Pyrenees",
+      "option": ["Alps", "Carpathians", "Urals", "Pyrenees"]
+    },
+    {
+      "id": 11,
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Peyton Manning retired after winning Super Bowl XLIX.",
+      "rightAns": "False",
+      "option": ["True", "False"]
+    },
+    {
+      "id": 12,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the &quot;Champions League&quot; in 1999?",
+      "rightAns": "Manchester United",
+      "option": [
+        "Barcelona",
+        "Bayern Munich",
+        "Liverpool",
+        "Manchester United"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the 2015 College Football Playoff (CFP) National Championship? ",
+      "rightAns": "Ohio State Buckeyes",
+      "option": [
+        "Alabama Crimson Tide",
+        "Clemson Tigers",
+        "Wisconsin Badgers",
+        "Ohio State Buckeyes"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In what sport does Fanny Chmelar compete for Germany?",
+      "rightAns": "Skiing",
+      "option": ["Swimming", "Showjumping", "Gymnastics", "Skiing"]
+    },
+    {
+      "id": 15,
+      "category": "Sports",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "ATP tennis hosted several tournaments on carpet court before being replaced to reduce injuries.",
+      "rightAns": "True",
+      "option": ["False", "True"]
+    },
+    {
+      "id": 16,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which African American is in part responsible for integrating  Major League baseball?",
+      "rightAns": "Jackie Robinson",
+      "option": [
+        "Curt Flood",
+        "Roy Campanella",
+        "Satchell Paige",
+        "Jackie Robinson"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the UEFA Champions League in 2017?",
+      "rightAns": "Real Madrid C.F.",
+      "option": [
+        "Atletico Madrid",
+        "AS Monaco FC",
+        "Juventus F.C.",
+        "Real Madrid C.F."
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the UEFA Champions League in 2016?",
+      "rightAns": "Real Madrid C.F.",
+      "option": [
+        "FC Bayern Munich",
+        "Atletico Madrid",
+        "Manchester City F.C.",
+        "Real Madrid C.F."
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who won the 2011 Stanley Cup?",
+      "rightAns": "Boston Bruins",
+      "option": [
+        "Montreal Canadiens",
+        "New York Rangers",
+        "Toronto Maple Leafs",
+        "Boston Bruins"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In Canadian football, scoring a rouge is worth how many points?",
+      "rightAns": "1",
+      "option": ["2", "3", "4", "1"]
+    },
+    {
+      "id": 21,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "A doctor with a PhD is a doctor of what?",
+      "rightAns": "Philosophy",
+      "option": ["Psychology", "Phrenology", "Physical Therapy", "Philosophy"]
+    },
+    {
+      "id": 22,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Scotch whisky and Drambuie make up which cocktail?",
+      "rightAns": "Rusty Nail",
+      "option": ["Screwdriver", "Sex on the Beach", "Manhattan", "Rusty Nail"]
+    },
+    {
+      "id": 23,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is on display in the Madame Tussaud&#039;s museum in London?",
+      "rightAns": "Wax sculptures",
+      "option": [
+        "Designer clothing",
+        "Unreleased film reels",
+        "Vintage cars",
+        "Wax sculptures"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "General_Knowledge",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "In Scandinavian languages, the letter &Aring; means river.",
+      "rightAns": "True",
+      "option": ["False", "True"]
+    },
+    {
+      "id": 25,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?",
+      "rightAns": "28%",
+      "option": ["13%", "20%", "7%", "28%"]
+    },
+    {
+      "id": 26,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Apple co-founder Steve Jobs died from complications of which form of cancer?",
+      "rightAns": "Pancreatic",
+      "option": ["Bone", "Liver", "Stomach", "Pancreatic"]
+    },
+    {
+      "id": 27,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The website &quot;Shut Up &amp; Sit Down&quot; reviews which form of media?",
+      "rightAns": "Board Games",
+      "option": ["Television Shows", "Video Games", "Films", "Board Games"]
+    },
+    {
+      "id": 28,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What zodiac sign is represented by a pair of scales?",
+      "rightAns": "Libra",
+      "option": ["Aries", "Capricorn", "Sagittarius", "Libra"]
+    },
+    {
+      "id": 29,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which logical fallacy means to attack the character of your opponent rather than their arguments?",
+      "rightAns": "Ad hominem",
+      "option": [
+        "Post hoc ergo propter hoc",
+        "Tu quoque",
+        "Argumentum ad populum",
+        "Ad hominem"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "General_Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the French word for &quot;fish&quot;?",
+      "rightAns": "poisson",
+      "option": ["fiche", "escargot", "mer", "poisson"]
     }
   ]
 }
